@@ -134,16 +134,8 @@ extern id FLCopyOrRetainObject(id src);
 #endif
 
 #if OS_OBJECT_USE_OBJC
-#define FLDispatchRelease(__ITEM__) __ITEM__ = nil
+#define FLDispatchRelease(__ITEM__) 
 #else
-NS_INLINE
-void FLDispatchReleaseImp(dispatch_object_t* obj) {
-    if(obj) {
-        dispatch_release(*obj);
-        *obj = nil;
-    }
-}
-
-#define FLDispatchRelease(__ITEM__) FLDispatchReleaseImp(&__ITEM__)
+#define FLDispatchRelease(__ITEM__) dispatch_release(__ITEM__)
 #endif
 

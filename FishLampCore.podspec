@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.1'
   s.osx.deployment_target = '10.6'
   s.source       = { :git => "https://github.com/fishlamp-cocoa/fishlamp-core", :tag => "0.0.1" }
-  s.source_files  = 'FishLampCore-Classes', 'FishLampCore-Classes/**/*.{h,m}'
+  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
 #   s.exclude_files = 'Classes/Exclude'
   # s.public_header_files = 'Classes/**/*.h'
 
@@ -67,5 +67,11 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   # s.dependency 'JSONKit', '~> 1.4'
+
+
+  s.subspec 'Evernote' do |evernote|
+    evernote.source_files = 'Classes/ShareKit/Sharers/Services/Evernote/**/*.{h,m}'
+  end
+
 
 end
