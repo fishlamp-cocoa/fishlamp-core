@@ -1,5 +1,5 @@
 {
-	"id" : "2013-11-29-15-19-33",
+	"timestamp" : "2013-11-29-15-19-33",
 	"from": {
 		"name": "Jenkins",
 		"url": "http://www.foo.com"
@@ -12,5 +12,13 @@
 		"url": "https://github.com/mikefullerton",
 		"name": "Mike Fullerton"
 	},
-    "result": "failed"
+	"what": {
+		"name": "fishlamp-core",
+		"branch": "develop",
+		"url": "https://github.com/fishlamp-objc/fishlamp-core/tree/develop"
+	},
+	"result": {
+		"tag": "failed",
+		"img-url": "http://static4.wikia.nocookie.net/__cb20130914074757/powerlisting/images/1/12/FAIL-Word-art-300x187.png"
+	}
 }
