@@ -18,8 +18,8 @@
 		"url": "https://github.com/fishlamp-objc/fishlamp-core/tree/develop"
 	},
 	"result": {
-	    "failed": false,
-		"tag": "failed",
+	    "failed": true,
+		"url": "failed",
         "pass": "http://www.clker.com/cliparts/8/8/0/6/11954451881968599805jean_victor_balin_green_tick.svg.med.png",
 		"fail": "http://static4.wikia.nocookie.net/__cb20130914074757/powerlisting/images/1/12/FAIL-Word-art-300x187.png",
 		"tag": "pass"
