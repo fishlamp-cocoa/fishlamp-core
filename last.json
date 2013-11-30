@@ -1,0 +1,17 @@
+{
+	"id" : "2013-11-29-15-19-33",
+	"reportedBy": {
+		"name": "Jenkins",
+		"url": "http://www.foo.com"
+	},
+	"gitCommit": {
+	    "sha": "2aaeb4c561d03696e9609eec02cf01ffa2b5c60c",
+	    "url": "https://github.com/fishlamp-objc/fishlamp-core/commit/2aaeb4c561d03696e9609eec02cf01ffa2b5c60c",
+
+		"author": { 
+			"url": "https://github.com/mikefullerton",
+			"name": "Mike Fullerton"
+		}
+	},
+    "buildStatus": "failed"
+}
